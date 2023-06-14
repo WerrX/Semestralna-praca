@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Sem-Dendis</string>
+    <string name="press_to_get_to_progress">press to get to progress</string>
+    <string name="press_to_get_to_trainig_plan">press_to_get_to_progress</string>
+    <string name="press_to_view_to_tapeta">press_to_view_to_tapeta</string>
+    <string name="press_to_get_to_mealplan">press_to_get_to_mealPlan</string>
+    <string name="press_to_get_to_streach">press_to_get_to_streach</string>
+    <string name="press_to_get_to_trainig">press_to_get_to_trainig</string>
+    <string name="title_activity_streaching">Streaching</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="press_to_learn_more_about_exercise">press to learn more about exercise</string>
+    <string name="more_information_about_second_exercise">more information about second exercise</string>
+    <string name="more_information_about_third_exercise">more information about third exercise</string>
+    <string name="more_information_about_forth_exercise">more information about forth exercise</string>
+    <string name="more_information_about_fifth_exercise">more information about fifth exercise</string>
+    <string name="mstart_the_exercise">mstart the exercise</string>
+    <string name="firstchip">firstchip</string>
+    <string name="secondchip">secondchip</string>
+    <string name="thirdchip">thirdchip</string>
+    <string name="fifthchip">fifthchip</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="halo">HALO</string>
+    <string name="streaching_na_cele_telo">streaching na cele telo</string>
+    <string name="streaching_na_spodok_tela">streaching na spodok tela</string>
+    <string name="streaching_na_stred_tela">streaching na stred tela</string>
+    <string name="scrollview_na_zadane_roztahovania">ScrollView na zadane roztahovania</string>
+    <string name="name_of_streaching_exercise">name of streaching exercise</string>
+    <string name="cvik1">Cvik1</string>
+    <string name="lat_tri_streatch"><![CDATA[Lat & Tri Streatch]]></string>
+    <string name="foto_of_streaching_exercise_child_pose">foto of streaching exercise child pose</string>
+    <string name="the_child_s_pose_helps_to_stretch_your_back_and_muscles_around_your_hips_in_this_pose_kneel_and_sit_on_your_knees_lean_forward_keeping_your_buttocks_on_your_heels_and_rest_your_forehead_on_the_floor">The child\'s pose helps to stretch your back and muscles around your hips. In this pose, kneel and sit on your knees. Lean forward, keeping your buttocks on your heels, and rest your forehead on the floor.</string>
+    <string name="childs_pose">Childs Pose</string>
+    <string name="triceps_streach">Triceps Streach</string>
+    <string name="spine_streach_helps_to_stretch_your_back_and_muscles_around_your_hips_in_this_pose_kneel_and_sit_on_your_knees_lean_forward_keeping_your_buttocks_on_your_heels_and_rest_your_forehead_on_the_floor">Spine Streach helps_to_stretch_your_back_and_muscles_around_your_hips_in_this_pose_kneel_and_sit_on_your_knees_lean_forward_keeping_your_buttocks_on_your_heels_and_rest_your_forehead_on_the_floor</string>
+    <string name="spine_streach">Spine streach</string>
+    <string name="neck_streach">Neck Streach</string>
+    <string name="forearm_streach">Forearm Streach</string>
+    <string name="bend_your_hand_downward_and_gently_pull_it_toward_you_using_your_other_hand_you_ll_feel_tension_in_the_outside_part_of_your_elbow_and_forearm_this_area_is_where_you_may_experience_repetitive_strain_due_to_typing_on_a_computer_hold_the_stretch_for_15_to_30_seconds">Bend your hand downward and gently pull it toward you using your other hand. You\'ll feel tension in the outside part of your elbow and forearm. This area is where you may experience repetitive strain due to typing on a computer. Hold the stretch for 15 to 30 seconds</string>
+    <string name="Triceps_streach">Triceps Streach</string>
+    <string name="extend_your_right_arm_to_the_ceiling_then_bend_at_the_elbow_to_bring_the_right_palm_toward_the_center_of_your_back_resting_your_middle_finger_along_your_spine_use_your_left_hand_to_gently_push_your_elbow_in_toward_the_center_and_down_hold_this_stretch_30_seconds_for_three_to_four_repetitions_on_each_side">Extend your right arm to the ceiling, then bend at the elbow to bring the right palm toward the center of your back, resting your middle finger along your spine. Use your left hand to gently push your elbow in toward the center and down. Hold this stretch 30 seconds for three to four repetitions on each side.</string>
+    <string name="to_stretch_your_neck_bend_your_head_forward_and_slightly_to_the_right_with_your_right_hand_gently_pull_your_head_downward_you_ll_feel_a_nice_easy_stretch_along_the_back_left_side_of_your_neck">To stretch your neck: Bend your head forward and slightly to the right. With your right hand, gently pull your head downward. You\'ll feel a nice, easy stretch along the back left side of your neck.</string>
+    <string name="spine_streach_is_not_a_move_that_strengthens_your_muscles_this_means_that_it_s_not_meant_to_push_or_build_any_muscles_instead_it_s_a_stretch_that_focuses_on_lengthening_your_spine_opening_your_hips_and_stretching_your_thighs_trapezius_muscles_the_trapezius_muscles_are_the_two_large_muscles_in_your_back">Spine streach is not a move that strengthens your muscles. This means that it\'s not meant to push or build any muscles. Instead, it\'s a stretch that focuses on lengthening your spine, opening your hips, and stretching your thighs. Trapezius muscles. The trapezius muscles are the two large muscles in your back</string>
+    <string name="explanation_od_streach_exercise">explanation od Streach exercise</string>
+    <string name="explanation_of_neck_streach_exercise">explanation of neck Streach exercise</string>
+    <string name="explanation_of_triceps_streach_exercise">explanation of triceps Streach exercise</string>
+    <string name="streaching_na_vrch_tela">streaching na vrch tela</string>
+    <string name="sit_cross_legged_with_one_leg_folded_in_front_of_the_other_and_your_back_straight_bring_your_left_hand_to_your_right_knee_and_place_your_right_fingertips_on_the_mat_behind_you_inhale_sit_up_tall_lengthen_your_spine_exhale_twist_from_the_base_of_your_spine_to_the_right">Sit cross-legged with one leg folded in front of the other and your back straight. Bring your left hand to your right knee and place your right fingertips on the mat behind you. Inhale, sit up tall—lengthen your spine. Exhale, twist from the base of your spine to the right</string>
+    <string name="seatedtwist_on_both_sides">seatedTwist on both sides</string>
+    <string name="seated_twist">Seated Twist</string>
+    <string name="to_properly_perform_the_sphinx_lay_on_your_stomach_with_your_forearms_propping_your_chest_up_push_down_onto_your_forearms_while_lifting_your_chest_up_keeping_your_back_arched_your_butt_should_not_raise_nor_should_your_pelvis_come_off_of_the_floor_and_you_feel_your_shoulder_muscles_and_low_back_muscles_working">To properly perform the sphinx, lay on your stomach with your forearms propping your chest up. Push down onto your forearms while lifting your chest up keeping your back arched. Your butt should not raise nor should your pelvis come off of the floor and you feel your shoulder muscles and low back muscles working.</string>
+    <string name="straching_lower_back">straching lower back</string>
+    <string name="sphinx">Sphinx</string>
+    <string name="begin_in_a_quadruped_position_on_the_floor_wrists_in_line_with_the_shoulders_and_knees_aligned_with_the_hips_take_one_hand_reach_towards_the_ceiling_then_thread_it_under_the_opposite_arm_reach_as_far_as_you_can_while_keeping_your_head_and_shoulder_on_the_ground_hold_for_30_seconds">Begin in a quadruped position on the floor (wrists in line with the shoulders and knees aligned with the hips). Take one hand, reach towards the ceiling then thread it under the opposite arm. Reach as far as you can while keeping your head and shoulder on the ground. Hold for 30 seconds</string>
+    <string name="explanation_of_streach_exercise">explanation of streach exercise</string>
+    <string name="thread_the_needle_leg_to_sides">Thread The Needle - Leg to sides</string>
+    <string name="keep_your_hands_shoulder_width_apart_and_your_knees_directly_below_your_hips_inhale_deeply_while_curving_your_lower_back_and_bringing_your_head_up_tilting_your_pelvis_up_like_a_cow_exhale_deeply_and_bring_your_abdomen_in_arching_your_spine_and_bringing_your_head_and_pelvis_down_like_a_cat_repeat_several_times">Keep your hands shoulder-width apart and your knees directly below your hips. Inhale deeply while curving your lower back and bringing your head up, tilting your pelvis up like a \'\'cow\'\'. Exhale deeply and bring your abdomen in, arching your spine and bringing your head and pelvis down like a \'\'cat\'\' Repeat several times.</string>
+    <string name="exercise_to_streach_your_back">exercise to streach your back</string>
+    <string name="textview">TextView</string>
+    <string name="progress_chart">Progress Chart</string>
+    <string name="cat_cow">Cat Cow</string>
+    <string name="aim_weight">Aim weight</string>
+    <string name="for_adding_progress">for adding progress</string>
+    <string name="curent_weight">Curent weight</string>
+    <string name="add_progress">Add Progress</string>
+    <string name="enter_date">Enter date</string>
+    <string name="enter_weight">Enter weight</string>
+    <string name="saves_added_info">saves added info</string>
+    <string name="button_to_go_back_to_progress_activity">button to go back to progress activity</string>
+    <string name="enter_date_in_dd_mm_yyyy">enter_date in DD/MM/YYYY</string>
+    <string name="open_push_treaining">open push treaining</string>
+    <string name="open_pull_trianing">open pull trianing</string>
+    <string name="open_legg_treining">open legg treining</string>
+    <string name="exercise_for_legs">exercise for legs</string>
+    <string name="exercise_for_push">exercise for push</string>
+    <string name="exercise_for_pull">exercise for pull</string>
+    <string name="main_exercises">Main exercises</string>
+    <string name="secondary_exercise">Secondary exercise</string>
+    <string name="exerciseimage">exerciseImage</string>
+    <string name="exerciseimage1">exerciseimage1</string>
+    <string name="exerciseimage2">exerciseimage2</string>
+    <string name="exerciseimage3">exerciseimage3</string>
+    <string name="exerciseimage4">exerciseimage4</string>
+    <string name="exerciseimage5">exerciseimage5</string>
+    <string name="exercise_explanation">Exercise explanation</string>
+    <string name="number_of_sets">Number of Sets</string>
+    <string name="number">number</string>
+    <string name="weblink">WebLink</string>
+    <string name="calves_and_hamstrings_stretch_streach">CALVES AND HAMSTRINGS STRETCH STREACH</string>
+    <string name="calves_and_hamstrings_stretch">CALVES AND HAMSTRINGS STRETCH</string>
+    <string name="sit_on_the_floor_on_your_sitting_bones_moving_your_cheeks_out_of_the_way_fold_forward_until_you_feel_a_stretch_in_your_lower_back_and_hamstrings_experiment_with_straight_and_bent_legs_bent_knees_will_bring_the_stretch_more_to_the_lower_back_straight_legs_more_in_the_hamstrings">Sit on the floor on your sitting bones, moving your cheeks out of the way. Fold forward until you feel a stretch in your lower back and hamstrings. Experiment with straight and bent legs – bent knees will bring the stretch more to the lower back, straight legs more in the hamstrings.</string>
+    <string name="plantar_fascia_stretch">PLANTAR FASCIA STRETCH</string>
+    <string name="step_stretch_for_plantar_fasciitis_it_helps_to_stretch_the_plantar_fasciitis_and_the_calf_muscles_stand_on_a_step_you_can_take_a_book_of_you_do_not_have_a_step_and_let_one_heel_to_hang_off_the_back_of_the_step_bend_the_second_knee_and_drop_the_heel_until_you_feel_the_stretch_in_your_foot_hold_it_for_a_minute_repeat_the_exercise_twice_a_day">Step stretch for plantar fasciitis It helps to stretch the plantar fasciitis and the calf muscles. Stand on a step (you can take a book of you do not have a step) and let one heel to hang off the back of the step. Bend the second knee and drop the heel until you feel the stretch in your foot. Hold it for a minute, repeat the exercise twice a day.</string>
+    <string name="hip_flexor_stretch">HIP FLEXOR STRETCH</string>
+    <string name="hip_flexor_stretch_explanation">HIP FLEXOR STRETCH explanation</string>
+    <string name="lie_flat_on_your_back_on_a_table_or_flat_bench_with_your_knees_and_lower_legs_hanging_off_the_edge_of_the_table_grab_your_good_leg_at_the_knee_and_pull_that_knee_back_toward_your_chest_hold_the_stretch_for_at_least_15_to_30_seconds_repeat_2_to_4_times">Lie flat on your back on a table or flat bench, with your knees and lower legs hanging off the edge of the table. Grab your good leg at the knee, and pull that knee back toward your chest. ... Hold the stretch for at least 15 to 30 seconds. Repeat 2 to 4 times.</string>
+    <string name="piriformis_stretch">PIRIFORMIS STRETCH</string>
+    <string name="piriformis_stretch_image">PIRIFORMIS STRETCH image</string>
+    <string name="lie_on_your_back_with_your_legs_straight_lift_your_affected_leg_and_bend_your_knee_with_your_opposite_hand_reach_across_your_body_and_then_gently_pull_your_knee_toward_your_opposite_shoulder_hold_the_stretch_for_15_to_30_seconds_repeat_with_your_other_leg_repeat_2_to_4_times_on_each_side">Lie on your back with your legs straight. Lift your affected leg and bend your knee. With your opposite hand, reach across your body, and then gently pull your knee toward your opposite shoulder. Hold the stretch for 15 to 30 seconds. Repeat with your other leg. Repeat 2 to 4 times on each side.</string>
+    <string name="video">Video</string>
+    <string name="https_www_youtube_com_watch_v_yqk6kepvrw0">https://www.youtube.com/watch?v=Yqk6KEPVrW0</string>
+    <string name="https_www_youtube_com_watch_v_2ea2koq6pti">https://www.youtube.com/watch?v=2eA2Koq6pTI</string>
+    <string name="https_www_youtube_com_watch_v_bgmnxt88rq8">https://www.youtube.com/watch?v=bgMNXt88RQ8</string>
+    <string name="final_weight">Final weight</string>
+    <string name="wieght">wieght</string>
+    <string name="strarter_weight">Strarter weight</string>
+    <string name="click_add_button">click_add_button</string>
+    <string name="last_date">Last date</string>
+    <string name="last_weight">last weight</string>
+    <string name="weight_diference">weight diference</string>
+    <string name="progress">progress</string>
+    <string name="image_of_exercise">image of exercise</string>
+    <string name="set_count">Set Count</string>
+    <string name="set_rep">Set rep</string>
+    <string name="last_added_date">Last Added Date</string>
+    <string name="last_added_weight">last Added weight</string>
+
+</resources>

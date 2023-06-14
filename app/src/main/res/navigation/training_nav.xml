@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/training_nav"
+    app:startDestination="@id/trainingFrag">
+    <fragment
+        android:id="@+id/trainingFrag"
+        android:name="com.example.sem_dendis.TrainingII.TrainingFrag"
+        android:label="fragment_training_base"
+        tools:layout="@layout/fragment_training_base" >
+        <action
+            android:id="@+id/action_trainingFrag_to_exercisesFragmentII"
+            app:destination="@id/exercisesFragmentII" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseFragmentII"
+        android:name="com.example.sem_dendis.TrainingII.ExerciseFragmentII"
+        android:label="fragment_exercise_i_i"
+        tools:layout="@layout/fragment_exercise_i_i" >
+        <action
+            android:id="@+id/action_exerciseFragmentII_to_exercisesFragmentII"
+            app:destination="@id/exercisesFragmentII" />
+    </fragment>
+    <fragment
+        android:id="@+id/exercisesFragmentII"
+        android:name="com.example.sem_dendis.TrainingII.ExercisesFragmentII"
+        android:label="fragment_exercises_ii"
+        tools:layout="@layout/fragment_exercises_ii" >
+        <action
+            android:id="@+id/action_exercisesFragmentII_to_exerciseFragmentII"
+            app:destination="@id/exerciseFragmentII" />
+        <action
+            android:id="@+id/action_exercisesFragmentII_to_trainingFrag"
+            app:destination="@id/trainingFrag" />
+    </fragment>
+</navigation>

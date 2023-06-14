@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        tools:context=".streach.StreachLowerBodyFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/id_firstCardView"
+                android:layout_width="365dp"
+                android:layout_height="600dp"
+
+                android:layout_margin="16dp"
+                app:cardElevation="8dp">
+
+
+                <TextView
+                    android:id="@+id/id_calvesAndHamsting"
+                    android:text="@string/calves_and_hamstrings_stretch"
+                    android:contentDescription="@string/name_of_streaching_exercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/id_ImgVfirstStreach"
+                    android:src="@drawable/hamstirng"
+                    android:contentDescription="@string/calves_and_hamstrings_stretch_streach"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="30dp"
+                    />
+
+                <TextView
+                    android:id="@+id/idTxtVHamstirngStreach"
+                    android:text="@string/sit_on_the_floor_on_your_sitting_bones_moving_your_cheeks_out_of_the_way_fold_forward_until_you_feel_a_stretch_in_your_lower_back_and_hamstrings_experiment_with_straight_and_bent_legs_bent_knees_will_bring_the_stretch_more_to_the_lower_back_straight_legs_more_in_the_hamstrings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="242dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/id_SecondCardView"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+
+
+                <TextView
+                    android:id="@+id/id_plantarStretchexercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plantar_fascia_stretch"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="30dp"
+                    android:src="@drawable/planter"
+                    android:contentDescription="@string/explanation_od_streach_exercise"
+                    />
+
+                <TextView
+                    android:id="@+id/idplantarstreach"
+                    android:text="@string/step_stretch_for_plantar_fasciitis_it_helps_to_stretch_the_plantar_fasciitis_and_the_calf_muscles_stand_on_a_step_you_can_take_a_book_of_you_do_not_have_a_step_and_let_one_heel_to_hang_off_the_back_of_the_step_bend_the_second_knee_and_drop_the_heel_until_you_feel_the_stretch_in_your_foot_hold_it_for_a_minute_repeat_the_exercise_twice_a_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="242dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/id_thirdCardView"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+
+
+                <TextView
+                    android:id="@+id/id_hipStretchexercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:text="@string/hip_flexor_stretch" />
+
+                <ImageView
+                    android:id="@+id/hipStreach"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="30dp"
+                    android:contentDescription="@string/hip_flexor_stretch_explanation"
+                    android:src="@drawable/hip"
+                    />
+
+                <TextView
+                    android:id="@+id/id_hipStreachTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="242dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="@string/lie_flat_on_your_back_on_a_table_or_flat_bench_with_your_knees_and_lower_legs_hanging_off_the_edge_of_the_table_grab_your_good_leg_at_the_knee_and_pull_that_knee_back_toward_your_chest_hold_the_stretch_for_at_least_15_to_30_seconds_repeat_2_to_4_times"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/id_forthCardView"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/id_piriStretchexercis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:text="@string/piriformis_stretch" />
+
+                <ImageView
+                    android:id="@+id/piriStreach"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="30dp"
+                    android:contentDescription="@string/piriformis_stretch_image"
+                    android:src="@drawable/piriformis"
+                    />
+                <TextView
+                    android:id="@+id/pirifomisTxtVexplanation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="242dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="@string/lie_on_your_back_with_your_legs_straight_lift_your_affected_leg_and_bend_your_knee_with_your_opposite_hand_reach_across_your_body_and_then_gently_pull_your_knee_toward_your_opposite_shoulder_hold_the_stretch_for_15_to_30_seconds_repeat_with_your_other_leg_repeat_2_to_4_times_on_each_side"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/id_fifthCardView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+
+                    <TextView
+                        android:id="@+id/vieotxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/video"
+                        android:textSize="24sp"
+                        android:textColor="@color/light_blue_A200"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:id="@+id/vieotxtHyperLink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/https_www_youtube_com_watch_v_yqk6kepvrw0"
+                        android:textSize="20sp"
+                        android:textColor="@color/light_blue_A200"
+                        android:layout_gravity="center_horizontal"
+                        android:autoLink="web"
+                        android:layout_margin="24sp"
+                        />
+
+                    <VideoView
+                        android:id="@+id/video_lower_body_videoview"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_gravity="bottom"/>
+
+                </FrameLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>

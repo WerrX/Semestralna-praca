@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_gravity="bottom"
+tools:context=".progress.ProgressaddingInfoFragment"
+android:background="@color/white"
+    >
+
+
+<ImageButton
+    android:id="@+id/backButton"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:src="?attr/homeAsUpIndicator"
+    android:contentDescription="@string/button_to_go_back_to_progress_activity"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<ImageButton
+    android:id="@+id/save_ImageButton"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:contentDescription="@string/saves_added_info"
+    android:src="@android:drawable/ic_menu_save"
+    app:layout_constraintBottom_toTopOf="@+id/backButton"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<TextView
+    android:id="@+id/id_txtVnameaddprogress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/add_progress"
+    android:textColor="#000000"
+    android:textSize="30sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.497"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<EditText
+    android:id="@+id/inputInfoD"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:ems="10"
+    android:gravity="center"
+    android:hint="@string/enter_date_in_dd_mm_yyyy"
+    android:inputType="date"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/id_txtVnameaddprogress" />
+
+<EditText
+    android:id="@+id/inputInfoW"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:ems="10"
+    android:gravity="center"
+    android:hint="@string/enter_weight"
+    android:inputType="numberDecimal"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/inputInfoD" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

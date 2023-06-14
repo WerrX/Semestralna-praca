@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/streach"
+    app:startDestination="@id/streachBaseFragment">
+
+    <fragment
+        android:id="@+id/streachBaseFragment"
+        android:name="com.example.sem_dendis.streach.StreachBaseFragment"
+        android:label="fragment_streach_base"
+        tools:layout="@layout/fragment_streach_base" >
+        <action
+            android:id="@+id/action_streachBaseFragment_to_streachUpperBodyFragment"
+            app:destination="@id/streachUpperBodyFragment" />
+        <action
+            android:id="@+id/action_streachBaseFragment_to_streachMidBodyFragment"
+            app:destination="@id/streachMidBodyFragment" />
+        <action
+            android:id="@+id/action_streachBaseFragment_to_streachLowerBodyFragment"
+            app:destination="@id/streachLowerBodyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/streachUpperBodyFragment"
+        android:name="com.example.sem_dendis.streach.StreachUpperBodyFragment"
+        android:label="fragment_streach_upper_body"
+        tools:layout="@layout/fragment_streach_upper_body" >
+        <action
+            android:id="@+id/action_streachUpperBodyFragment_to_streachBaseFragment"
+            app:destination="@id/streachBaseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/streachMidBodyFragment"
+        android:name="com.example.sem_dendis.streach.StreachMidBodyFragment"
+        android:label="fragment_streach_mid_body"
+        tools:layout="@layout/fragment_streach_mid_body" >
+        <action
+            android:id="@+id/action_streachMidBodyFragment_to_streachBaseFragment"
+            app:destination="@id/streachBaseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/streachLowerBodyFragment"
+        android:name="com.example.sem_dendis.streach.StreachLowerBodyFragment"
+        android:label="fragment_streach_lower_body"
+        tools:layout="@layout/fragment_streach_lower_body" >
+        <action
+            android:id="@+id/action_streachLowerBodyFragment_to_streachBaseFragment"
+            app:destination="@id/streachBaseFragment" />
+    </fragment>
+</navigation>

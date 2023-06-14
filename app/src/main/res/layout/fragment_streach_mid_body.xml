@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".streach.StreachMidBodyFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/id_firstCardView"
+                android:layout_width="365dp"
+                android:layout_height="600dp"
+                android:layout_margin="16dp"
+                app:cardElevation="8dp" >
+
+                <TextView
+                    android:id="@+id/id_catCowName"
+                    android:text="@string/cat_cow"
+                    android:contentDescription="@string/name_of_streaching_exercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/id_imgVcatCow"
+                    android:src="@drawable/catcow"
+                    android:contentDescription="@string/exercise_to_streach_your_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="30dp" />
+
+                <TextView
+                    android:id="@+id/txtcatCow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="242dp"
+                    android:text="@string/keep_your_hands_shoulder_width_apart_and_your_knees_directly_below_your_hips_inhale_deeply_while_curving_your_lower_back_and_bringing_your_head_up_tilting_your_pelvis_up_like_a_cow_exhale_deeply_and_bring_your_abdomen_in_arching_your_spine_and_bringing_your_head_and_pelvis_down_like_a_cat_repeat_several_times"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/SecondcardView"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_margin="16dp"
+                app:cardElevation="8dp"
+                >
+
+                <TextView
+                    android:id="@+id/id_threadTheNeedle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/thread_the_needle_leg_to_sides"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"  />
+
+                <ImageView
+                    android:id="@+id/imgVthreadTheNeedle"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="30dp"
+                    android:src="@drawable/threadtheneadle"
+                    android:contentDescription="@string/explanation_of_streach_exercise" />
+
+                <TextView
+                    android:id="@+id/txtthreadTheNeedle"
+                    android:text="@string/begin_in_a_quadruped_position_on_the_floor_wrists_in_line_with_the_shoulders_and_knees_aligned_with_the_hips_take_one_hand_reach_towards_the_ceiling_then_thread_it_under_the_opposite_arm_reach_as_far_as_you_can_while_keeping_your_head_and_shoulder_on_the_ground_hold_for_30_seconds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="242dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_margin="16dp"
+                app:cardElevation="8dp" >
+
+                <TextView
+                    android:id="@+id/id_sphinx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:text="@string/sphinx" />
+
+                <ImageView
+                    android:id="@+id/imgVsphinx"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="30dp"
+                    android:contentDescription="@string/straching_lower_back"
+                    android:src="@drawable/sphinx" />
+
+                <TextView
+                    android:id="@+id/id_txtsphinx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="242dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="@string/to_properly_perform_the_sphinx_lay_on_your_stomach_with_your_forearms_propping_your_chest_up_push_down_onto_your_forearms_while_lifting_your_chest_up_keeping_your_back_arched_your_butt_should_not_raise_nor_should_your_pelvis_come_off_of_the_floor_and_you_feel_your_shoulder_muscles_and_low_back_muscles_working" />
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_margin="16dp"
+                app:cardElevation="8dp" >
+
+                <TextView
+                    android:id="@+id/id_seatedTwist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    android:text="@string/seated_twist" />
+
+                <ImageView
+                    android:id="@+id/imgVseatedTwist"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="30dp"
+                    android:contentDescription="@string/seatedtwist_on_both_sides"
+                    android:src="@drawable/seatedtwist" />
+
+                <TextView
+                    android:id="@+id/txtseatedTwist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="242dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="@string/sit_cross_legged_with_one_leg_folded_in_front_of_the_other_and_your_back_straight_bring_your_left_hand_to_your_right_knee_and_place_your_right_fingertips_on_the_mat_behind_you_inhale_sit_up_tall_lengthen_your_spine_exhale_twist_from_the_base_of_your_spine_to_the_right"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_margin="16dp"
+                app:cardElevation="8dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/vieotxtHyperLinkStredTela"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/https_www_youtube_com_watch_v_2ea2koq6pti"
+                        android:textSize="20sp"
+                        android:textColor="@color/light_blue_A200"
+                        android:layout_gravity="center_horizontal"
+                        android:autoLink="web"
+                        android:layout_margin="24sp"
+                        />
+
+                    <VideoView
+                        android:id="@+id/vido_midstreach_videoview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>

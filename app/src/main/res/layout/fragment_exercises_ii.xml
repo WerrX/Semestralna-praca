@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".TrainingII.ExercisesFragmentII">
+
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/main_exerscise_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="@string/main_exercises"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/first_exercise_imgaeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/exerciseimage1"
+            android:background="@drawable/bb"
+            android:scaleType="centerInside"/>
+        <ImageButton
+            android:id="@+id/second_exercise_imgaeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/exerciseimage2"
+            android:background="@drawable/bb"
+            android:scaleType="centerInside"/>
+        <ImageButton
+            android:id="@+id/third_exercise_imgaeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/exerciseimage3"
+            android:background="@drawable/bb"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:id="@+id/fourth_exercise_imgaeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/exerciseimage4"
+            android:background="@drawable/bb"
+            android:scaleType="centerInside"/>
+
+        <ImageButton
+            android:id="@+id/fifth_exercise_imgaeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:background="@drawable/bb"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/exerciseimage5" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</ScrollView>
